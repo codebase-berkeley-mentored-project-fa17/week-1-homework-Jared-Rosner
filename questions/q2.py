@@ -20,6 +20,7 @@ def get_most_common_char(input_str):
 
     # run through input string to get character counts
     for char in input_str:
+        char = char.lower()
         if char in char_counts:
             char_counts[char] = char_counts[char] + 1
 
