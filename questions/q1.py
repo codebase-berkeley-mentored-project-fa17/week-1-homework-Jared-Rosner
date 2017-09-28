@@ -9,5 +9,5 @@ def get_max(array):
     # Change the function code so that it works as expected.
     ########################################################
     # REPLACE THE NEXT LINE WITH YOUR CODE
-    return max(array)
+    return max(array) if array.__len__() > 0 else None
     ########################################################
